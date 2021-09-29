@@ -1,12 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CustomersController;
+use App\Http\Controllers\CustomerController;
 
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('customers', [CustomersController::class, 'show']);
+Route::get('customers', [CustomerController::class, 'show']);

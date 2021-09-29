@@ -17,7 +17,7 @@ class CreateCustomersTable extends Migration
             $table->id();
             $table->string('firstname');
             $table->string('lastname');
-            $table->string('commercial');
+            $table->boolean('isCommercial');
             $table->timestamps();
         });
     }
