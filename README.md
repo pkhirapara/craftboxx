@@ -26,9 +26,6 @@ git clone "https://github.com/pkhirapara/craftboxx.git"
 composer install
 ```
 ```
-make sure to rename .env.example to .env
-```
-```
 make sure to rename .env.example to .env and databse connection in this file
 ```
 ```
