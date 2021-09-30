@@ -15,3 +15,28 @@
 - Laravel 8
 - MySQL
 - Bootsrap 5
+
+## Project setup (Follow step by step)
+
+- clone from github repository
+```
+git clone "https://github.com/pkhirapara/craftboxx.git"
+```
+```
+composer install
+```
+```
+make sure to rename .env.example to .env
+```
+```
+make sure to rename .env.example to .env and databse connection in this file
+```
+```
+create database in xampp
+```
+```
+php artisan migrate
+```
+```
+php artisan db:seed
+```
